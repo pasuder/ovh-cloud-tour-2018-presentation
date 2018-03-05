@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #F9CB45;
+}
+
+img {
+  width: 90%;
+}
+
+.link {
+  right: 2em;
+  bottom: 3em;
+  position: absolute;
+}
+
+.regular {
+  background: #572655;
+  color: #ffffff;
+  text-shadow: 0 0 2px #6E3D2B;
+}
+
+.light {
+  padding: 2em;
+  background: #B981B4;
+}
+
+.remark-slide-number {
+  width: 97%;
+  text-align: right;
+  background-image: url('images/logo-zolte-1.png');
+  background-size: 2em;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+pre, code, .remark-code {
+  padding: 0.5em;
+  text-align: left;
+  font-size: 0.8em;
+  color: #ffffff;
+  background: #001037;
+  border-radius: 5px;
+}
+
+.icn {
+  width: 80px;
+  height: 80px;
+  background: url(images/products-logo.png) no-repeat 0 0;
+  margin: 0 auto;
+}
+.icn.icn-privateCloud {
+  background-position: 0 0;
+}
+.icn.icn-publicCloud {
+  background-position: -80px 0;
+}
+.icn.icn-hybridCloud {
+  background-position: -160px 0;
+}
+.icn.icn-dedicated {
+  background-position: -240px 0;
+}
+.icn.icn-platforms {
+  background-position: -320px 0;
+}
+.icn.icn-save {
+  background-position: -400px 0;
+}
+.icn.icn-network {
+  background-position: -560px 0;
+}
+.icn.icn-microsoft {
+  background-position: -480px 0;
+}
+.icn.icn-vdi {
+  background-position: -640px 0;
+}
+.icn.icn-vps {
+  background-position: -720px 0;
+}
+
+.red {
+    color: #ff0000;
+}
+.green {
+    color: #00ff00;
+}
